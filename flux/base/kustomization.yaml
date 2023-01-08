@@ -6,7 +6,7 @@ resources:
 - github-instavote-provider.yaml
 - instavote-gitrepsitory.yaml
 - instavote-receiver.yaml
-- redis-kustomization.yaml
+- redis-staging-kustomization.yaml
 - redis-staging-alert.yaml
 - result-helmrelease.yaml
 - result-imagepolicy.yaml
