@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: vote
+    tier: front
+  name: vote
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: vote
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: vote
+        tier: front
+    spec:
+      containers:
+      - image: sasachde/vote:v1
+        name: vote
+        resources: {}
