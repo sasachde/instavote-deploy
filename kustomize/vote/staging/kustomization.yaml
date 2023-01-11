@@ -7,7 +7,7 @@ patchesStrategicMerge:
 #- service.yaml
 replicas:
 - name: vote
-  count: 4
+  count: 0
 images:
 - name: sasachde/vote
   newTag: main-e670959e-1673076111 # {"$imagepolicy": "flux-system:vote:tag"}
