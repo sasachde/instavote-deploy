@@ -4,7 +4,7 @@ resources:
 - ../base
 patchesStrategicMerge:
 - deployment.yaml
-- service.yaml
+#- service.yaml
 replicas:
 - name: vote
   count: 4
