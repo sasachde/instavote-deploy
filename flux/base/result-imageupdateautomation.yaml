@@ -9,9 +9,6 @@ spec:
     checkout:
       ref:
         branch: main
-        sourceRef:
-          kind: GitRepository
-          name: instavote-deploy
     commit:
       author:
         email: fluxcdbot@users.noreply.github.com
