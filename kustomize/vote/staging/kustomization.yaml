@@ -5,6 +5,7 @@ resources:
 patchesStrategicMerge:
 - deployment.yaml
 #- service.yaml
+- canary.yaml
 replicas:
 - name: vote
   count: 0
