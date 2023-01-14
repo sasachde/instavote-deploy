@@ -11,7 +11,7 @@ replicas:
   count: 0
 images:
 - name: sasachde/vote
-  newTag: main-e670959e-1673076111 # {"$imagepolicy": "flux-system:vote:tag"}
+  newTag: main-e670959e-1673076111 # {"$imagepolicy": "instavote:vote:tag"}
 namespace: instavote
 commonLabels:
   project: instavote
