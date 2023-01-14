@@ -13,13 +13,6 @@ spec:
       containers:
       - image: sasachde/vote:v3
         name: vote
-        resources:
-          requests:
-            memory: "8Mi"
-            cpu: "50m"
-          limits:
-            memory: "16Mi"
-            cpu: "80m"
         envFrom:
           - configMapRef:
               name: vote-options
